@@ -1,3 +1,4 @@
+For this script to work you need only instal shedule and main.py json will create itself + fill up gaps for you email\password and folder path inside script.
 This script checks:
 
 If script was already used by chcecking if json file exist or if files dictionary is empty. 
