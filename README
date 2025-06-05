@@ -1,0 +1,9 @@
+This script checks:
+
+If script was already used by chcecking if json file exist or if files dictionary is empty. 
+
+If file was changed from last check:
+    if yes then will send mail to you want until schedule and checks again from last time
+    else: will wait until next schedule
+
+Script don't recognise changes from 1+ loop so if something was changed, mail was send, checked once more and nothing was changed from moment email sending then for script is no change. 
