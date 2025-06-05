@@ -15,9 +15,9 @@ def SEND_MAIL(changed_files):
     
     SMTP_SERVER = 'smtp.gmail.com'
     SMTP_PORT = 587
-    EMAIL_ADDRESS = 'mikolajsiwek@gmail.com' # PUT YOUR EMAIL ADRESS
-    EMAIL_PASSWORD = 'owli iqpz tslt eqck'  # USE APLICATION PASSWORD
-    RECIPIENT_EMAIL = 'mikolajsiwek@gmail.com' #HERE PUT YOUR EMAIL ADRESS TOO
+    EMAIL_ADDRESS = '' # PUT YOUR EMAIL ADRESS
+    EMAIL_PASSWORD = ''  # USE APLICATION PASSWORD
+    RECIPIENT_EMAIL = '' #HERE PUT YOUR EMAIL ADRESS TOO
 
     # Message creation
     msg = MIMEMultipart()
